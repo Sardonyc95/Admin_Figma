@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.figma-site{
+    margin: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    background-color: blueviolet;
+    color: white;
+    font-size:x-small;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.header .contact{
+    display: flex;
+}
+
+.header .contact .mail{
+    padding-right: 40px;
+}
+
+.header .details{
+    display: flex;
+}
+
+.header .details .usd{
+    padding-left: 15px;
+}
+
+.header .details .login{
+    padding-left: 15px;
+}
+
+.header .details .wishlist{
+    padding-left: 15px;
+}
+
+.header .details .cart{
+    padding-left: 15px;
+}
+.nav-bar{
+    background-color: #fff
+}
+.nav-bar .logo .home :hover a{
+     color: #fb2e86;
+}
+.nav-bar .logo{
+    font-family: arial;
+    font-weight: 50;
+    color: navy
+}
+.nav-bar .logo{
+    display: flex;
+    gap: 2rem;
+    margin-top: 10px;
+}
+.nav-bar .logo .log{
+    margin-left: 100px;
+    margin-right: 50px;
+}
+.trends{
+    background-color: rgb(219, 216, 216);
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.trends .img1{
+    padding:1px;
+    margin: 0;
+    margin-right: 5px;
+}
+.text1{
+    text-align: justify;
+    padding: 0;
+    margin-top: 200px;
+}
+.trends .img2{
+    padding: 10px;
+}
+.text1 .p1{
+    font-family: serif;
+    font-size: x-small;
+    margin-bottom: 10px;
+    color: #fb2e86;  
+}
+.text1 h3{
+    font-family: 'Trebuchet MS';
+    font-size: 30px;
+    font-weight: 900;
+    color: black;
+    margin-bottom: 20px;
+}
+.text1 p{
+    margin-bottom: 30px;
+}
+.text1 div{
+    padding: 10px;
+    background-color: #fb2e86;
+    position: fixed;
+}
+
